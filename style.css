@@ -16,7 +16,7 @@ body {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: #ff9900;
+    background-color: #28a745;
     color: white;
     border-radius: 10px;
 }
@@ -56,7 +56,7 @@ li {
 
 button {
     padding: 5px 10px;
-    background-color: #ff9900;
+    background-color: #28a745;
     color: white;
     border: none;
     border-radius: 5px;
@@ -64,7 +64,7 @@ button {
 }
 
 button:hover {
-    background-color: #cc7a00;
+    background-color: #218838;
 }
 
 #total {
@@ -72,18 +72,18 @@ button:hover {
     margin-top: 10px;
 }
 
-#confirmar {
+#finalizar {
     width: 100%;
     padding: 10px;
-    background-color: green;
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-#confirmar:hover {
-    background-color: darkgreen;
+#finalizar:hover {
+    background-color: #0056b3;
 }
 
 footer {
