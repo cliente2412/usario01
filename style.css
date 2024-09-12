@@ -86,14 +86,13 @@ button:hover {
     background-color: #0056b3;
 }
 {
-    font-family: Arial, sans-serif;
-    color: #333;
+  
     padding: 20px;
     max-width: 800px;
     margin: auto;
     
-    /* Imagem de fundo */
-    background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-food-western-food-steak-tomato-picture-image_941801.jpg'); /* Substitua pelo seu link */
+   
+    background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-food-western-food-steak-tomato-picture-image_941801.jpg"); /* Substitua pelo seu link */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
