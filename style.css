@@ -98,37 +98,3 @@ button:hover {
     background-position: center;
     background-repeat: no-repeat;
 }
-
-/* Outros estilos continuam os mesmos */
-header {
-    text-align: center;
-    padding: 20px 0;
-    background-color: rgba(40, 167, 69, 0.8); /* Fundo semi-transparente */
-    color: white;
-    border-radius: 10px;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-main {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-section {
-    width: 45%;
-    background-color: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Outros estilos seguem... */
-footer {
-    text-align: center;
-    margin-top: 40px;
-    color: #777;
-}
