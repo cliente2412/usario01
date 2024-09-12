@@ -3,55 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lanchonete</title>
+    <title>Delivery Online</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Lanchonete Saboroso</h1>
+        <h1>Delivery Sabor & Saúde</h1>
+        <p>Comida saudável entregue na sua porta</p>
     </header>
 
     <main>
+        <!-- Seção do Cardápio -->
         <section id="menu">
             <h2>Nosso Cardápio</h2>
             <ul>
                 <li>
-                    <span>Hambúrguer</span>
+                    <span>Salada Caesar</span>
+                    <span>R$ 25,00</span>
+                    <button onclick="addItem('Salada Caesar', 25)">Adicionar</button>
+                </li>
+                <li>
+                    <span>Sanduíche Natural</span>
+                    <span>R$ 15,00</span>
+                    <button onclick="addItem('Sanduíche Natural', 15)">Adicionar</button>
+                </li>
+                <li>
+                    <span>Suco Detox</span>
                     <span>R$ 10,00</span>
-                    <button onclick="addItem('Hambúrguer', 10)">Adicionar</button>
+                    <button onclick="addItem('Suco Detox', 10)">Adicionar</button>
                 </li>
                 <li>
-                    <span>Batata Frita</span>
-                    <span>R$ 5,00</span>
-                    <button onclick="addItem('Batata Frita', 5)">Adicionar</button>
-                </li>
-                <li>
-                    <span>Refrigerante</span>
-                    <span>R$ 4,00</span>
-                    <button onclick="addItem('Refrigerante', 4)">Adicionar</button>
-                </li>
-                <li>
-                    <span>Sorvete</span>
-                    <span>R$ 6,00</span>
-                    <button onclick="addItem('Sorvete', 6)">Adicionar</button>
+                    <span>Wrap de Frango</span>
+                    <span>R$ 20,00</span>
+                    <button onclick="addItem('Wrap de Frango', 20)">Adicionar</button>
                 </li>
             </ul>
         </section>
 
-        <section id="pedido">
-            <h2>Seu Pedido</h2>
-            <ul id="order-list">
-                <!-- Itens do pedido aparecerão aqui -->
+        <!-- Seção do Carrinho -->
+        <section id="carrinho">
+            <h2>Seu Carrinho</h2>
+            <ul id="carrinho-lista">
+                <!-- Os itens adicionados ao carrinho aparecerão aqui -->
             </ul>
             <p id="total">Total: R$ 0,00</p>
-            <button id="confirmar" onclick="confirmarPedido()">Confirmar Pedido</button>
+            <button id="finalizar" onclick="finalizarPedido()">Finalizar Pedido</button>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Lanchonete Saboroso. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Delivery Sabor & Saúde. Todos os direitos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+
