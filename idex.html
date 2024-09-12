@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lanchonete Saboroso</h1>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h2>Nosso Cardápio</h2>
+            <ul>
+                <li>
+                    <span>Hambúrguer</span>
+                    <span>R$ 10,00</span>
+                    <button onclick="addItem('Hambúrguer', 10)">Adicionar</button>
+                </li>
+                <li>
+                    <span>Batata Frita</span>
+                    <span>R$ 5,00</span>
+                    <button onclick="addItem('Batata Frita', 5)">Adicionar</button>
+                </li>
+                <li>
+                    <span>Refrigerante</span>
+                    <span>R$ 4,00</span>
+                    <button onclick="addItem('Refrigerante', 4)">Adicionar</button>
+                </li>
+                <li>
+                    <span>Sorvete</span>
+                    <span>R$ 6,00</span>
+                    <button onclick="addItem('Sorvete', 6)">Adicionar</button>
+                </li>
+            </ul>
+        </section>
+
+        <section id="pedido">
+            <h2>Seu Pedido</h2>
+            <ul id="order-list">
+                <!-- Itens do pedido aparecerão aqui -->
+            </ul>
+            <p id="total">Total: R$ 0,00</p>
+            <button id="confirmar" onclick="confirmarPedido()">Confirmar Pedido</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Lanchonete Saboroso. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
