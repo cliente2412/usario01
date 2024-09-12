@@ -11,7 +11,6 @@ body {
     padding: 20px;
     max-width: 800px;
     margin: auto;
-    backgraund: url("https://torrent4you.org/wp-content/uploads/call-of-duty-modern-warfare-2.jpgs");
 }
 
 header {
@@ -91,3 +90,22 @@ footer {
     margin-top: 40px;
     color: #777;
 }
+
+
+
+
+
+
+{
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+
+    /* Adicionando imagem de fundo */
+    background-image: url('https://torrent4you.org/wp-content/uploads/call-of-duty-modern-warfare-2.jpgs'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem no fundo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+}
+
