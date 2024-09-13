@@ -1,13 +1,6 @@
 body 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
-}
-
-*{
+{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
@@ -15,6 +8,15 @@ body
     max-width: 800px;
     margin: auto;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
 
 header {
     text-align: center;
