@@ -69,7 +69,7 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #882170;
 }
 
 #total {
@@ -80,7 +80,7 @@ button:hover {
 #finalizar {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #ff0000;
     color: white;
     border: none;
     border-radius: 5px;
