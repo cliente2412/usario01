@@ -61,7 +61,7 @@ li {
 
 button {
     padding: 5px 10px;
-    background-color: #28a745;
+    background-color: #882170;
     color: white;
     border: none;
     border-radius: 5px;
@@ -88,7 +88,7 @@ button:hover {
 }
 
 #finalizar:hover {
-    background-color: #0056b3;
+    background-color: ;
 }
 footer {
     text-align: center;
